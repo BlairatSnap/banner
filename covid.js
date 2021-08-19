@@ -17,9 +17,9 @@ function isDismissed() {
       return window.innerWidth <= 800;
     }
 
-    var url = "https://sacoronavirus.co.za/";
+    var url = "https://www.hireatruck.co.nz/lockdown-update/";
     if (detectMob()) {
-      url = "https://coronavirus.datafree.co/";
+      url = "https://www.hireatruck.co.nz/lockdown-update/";
     }
 
     var stylesCSS = `.b-covid-alert{position:absolute;top:0;left:0;right:0;width:100%;display:flex;justify-items:stretch;background-color:#fc5355;transform:translateY(-100%);transition:transform ease 1s;z-index: 99999999999}.b-covid-alert.m-active{transform:translateY(0)}.b-covid-alert .e-icon{background-color:#fc6666;padding:10px;display:flex;align-items:center}.b-covid-alert .e-text{flex-grow:1;padding:10px 20px;display:flex;align-items:center}.b-covid-alert .e-text a{color:#fff;font-size:14px}.b-covid-alert .e-close{display:flex;align-items:center;padding:10px 15px;cursor:pointer}`;
@@ -50,7 +50,7 @@ function isDismissed() {
 
     var bannerHTMLIcon = `<div class="e-icon">${iconSVG}</div>`;
 
-    var bannerHTMLText = `<div class="e-text"><a href="${url}" target="_blank">For more information on the COVID-19 Pandemic in South Africa, click here.${
+    var bannerHTMLText = `<div class="e-text"><a href="${url}" target="_blank">Please review our current response to NZ's Alert Level Changes, click here.${
       detectMob() ? " Data free." : ""
     }</a></div>`;
 
