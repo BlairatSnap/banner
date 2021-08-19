@@ -51,7 +51,7 @@ function isDismissed() {
     var bannerHTMLIcon = `<div class="e-icon">${iconSVG}</div>`;
 
     var bannerHTMLText = `<div class="e-text"><a href="${url}" target="_blank">Please review our current response to NZ's Alert Level Changes, click here.${
-      detectMob() ? " Data free." : ""
+      detectMob() ?""
     }</a></div>`;
 
     var bannerHTMLClose = `<div class="e-close" onclick="closeBanner()">${closeSVG}</div>`;
